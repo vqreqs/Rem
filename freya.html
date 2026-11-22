@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freya | QuiPinLay</title>
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="johnson.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" width="200px" alt="Logo">
+                </a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hero.html">Heroes</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                    <li>
+                        <a style="color:red;" href="https://play.google.com/store/apps/details?id=com.mobile.legends" target="_blank">
+                            <i class="fab fa-google-play"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a style="color:red;" href="https://apps.apple.com/th/app/mobile-legends-bang-bang/id1160056295" target="_blank">
+                            <i class="fab fa-apple"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <main class="johnson-page">
+        <div class="johnson-layout">
+
+            <div class="johnson-left">
+                <div class="johnson-image-box">
+                    <img src="freya.webp" alt="Freya Mobile Legends Hero">
+                </div>
+
+                <div class="johnson-purchase">
+                    <button type="button" disabled class="purchase-bp">
+                        <i class="fas fa-coins"></i>
+                        <strong>N/A</strong>
+                        <span>Battle Points</span>
+                    </button>
+
+                    <button onclick="purchase('599 Diamonds')" class="purchase-diamond" type="button">
+                        <i class="fas fa-gem"></i>
+                        <strong>599</strong>
+                        <span>Diamonds</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="johnson-details">
+
+                <p class="johnson-label">MOBILE LEGENDS HERO</p>
+
+                <h1>FREYA</h1>
+
+                <div class="johnson-line"></div>
+
+                <p class="johnson-description">
+                    Freya is a powerful Fighter hero known for her
+                    high attack speed, durability, and strong physical
+                    damage. As the Valkyrie, she uses her sword and
+                    shield to charge toward enemies, knock opponents
+                    airborne, and dominate battles with her powerful
+                    close-range attacks.
+                </p>
+
+                <p class="johnson-description">
+                    Her ultimate, <strong>Valkyrie Descent</strong>,
+                    allows her to dive toward a selected area and
+                    enter her Valkyrie state. During this state,
+                    she gains enhanced basic attacks and additional
+                    combat power. This makes her effective at
+                    engaging enemies and dealing heavy damage
+                    during team fights.
+                </p>
+
+                <div class="johnson-info">
+                    <div class="info-item">
+                        <span>ROLE</span>
+                        <h3>Fighter</h3>
+                    </div>
+
+                    <div class="info-item">
+                        <span>SPECIALTY</span>
+                        <h3>Chase / Damage</h3>
+                    </div>
+
+                    <div class="info-item">
+                        <span>LANE</span>
+                        <h3>EXP Lane</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container1">
+
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email: quipinlay@gmail.com</p>
+                <p>Phone: +1 (123) 456-7890</p>
+            </div>
+
+            <div class="footer-content">
+                <h3>Quick links</h3>
+                <ul class="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hero.html">Heroes</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/groups/mlbb.group.facebook/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://x.com/MobileLegendsOL?lang=en" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/mobilelegendsgame/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCqmld-BIYME2i_ooRTo1EOg" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="bottom-bar">
+            <p>&copy; 2024 QuiPinLay. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function purchase(item) {
+            alert("You purchased " + item + " Thank you for purchasing!");
+        }
+    </script>
+</body>
+</html>
