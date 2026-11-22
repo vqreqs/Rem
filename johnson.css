@@ -1,0 +1,144 @@
+.johnson-page {
+    padding: 50px 5%;
+}
+
+.johnson-layout {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 30px;
+}
+
+.johnson-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.johnson-image-box {
+    height: 430px;
+    background: rgba(0, 0, 0, 0.85);
+    border: 2px solid #f18930;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.johnson-image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.johnson-purchase {
+    display: flex;
+    gap: 10px;
+}
+
+.johnson-purchase button {
+    flex: 1;
+    padding: 15px 5px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #b85b16, #f18930);
+    color: white;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.johnson-purchase button:hover {
+    transform: translateY(-3px);
+}
+
+.johnson-purchase i {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+
+.johnson-details {
+    padding: 35px;
+    background: rgba(0, 0, 0, 0.9);
+    border: 2px solid #f18930;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.johnson-label {
+    color: #f18930;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.johnson-details h1 {
+    color: #f18930;
+    font-size: 3rem;
+    margin: 12px 0;
+}
+
+.johnson-line {
+    width: 300px;
+    height: 4px;
+    background: #f18930;
+    margin: 20px 0;
+}
+
+.johnson-description {
+    color: #eee;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.johnson-description strong {
+    color: #f18930;
+}
+
+.johnson-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.info-item {
+    flex: 1;
+    min-width: 110px;
+    padding: 12px;
+    background: rgba(241, 137, 48, 0.12);
+    border-left: 3px solid #f18930;
+}
+
+.info-item span {
+    color: #f18930;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.info-item h3 {
+    color: white;
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+@media (max-width: 750px) {
+    .johnson-layout {
+        grid-template-columns: 1fr;
+        max-width: 550px;
+    }
+
+    .johnson-image-box {
+        height: 400px;
+    }
+
+    .johnson-details {
+        padding: 25px;
+    }
+}
